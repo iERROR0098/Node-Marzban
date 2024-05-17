@@ -1,4 +1,3 @@
-#𝙴𝚁𝚁𝙾𝚁, [5/18/2024 12:03 AM]
 #!/bin/bash
 
 # Function to display an error message and exit
@@ -113,7 +112,6 @@ done
 echo "Creating and navigating to /var/lib/marzban/xray-core..."
 mkdir -p /var/lib/marzban/xray-core && cd /var/lib/marzban/xray-core || error_exit "Failed to create or navigate to /var/lib/marzban/xray-core."
 
-#𝙴𝚁𝚁𝙾𝚁, [5/18/2024 12:03 AM]
 # Download Xray core (replace with the desired version URL if necessary)
 echo "Downloading Xray core..."
 wget https://github.com/XTLS/Xray-core/releases/download/v1.8.4/Xray-linux-64.zip || error_exit "Failed to download Xray core."
