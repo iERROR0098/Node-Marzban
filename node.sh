@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sed -i 's/\r//' "$0"
-
 function error_exit {
     echo "$1" >&2
     exit 1
