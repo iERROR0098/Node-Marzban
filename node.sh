@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update package lists and upgrade existing packages
-apt-get update; apt-get upgrade -y; apt-get install curl socat git -y
+apt-get install curl socat git -y
 
 # Install required dependencies
 sudo apt-get install curl socat git wget unzip -y
